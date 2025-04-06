@@ -71,3 +71,5 @@ vim.o.shortmess = vim.o.shortmess .. 'c'
 vim.o.pumheight = 10
 -- always show tabline
 vim.o.showtabline = 1
+-- wrap line when too long
+vim.opt.wrap = true
